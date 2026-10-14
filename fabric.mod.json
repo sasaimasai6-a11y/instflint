@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "instaflint",
+  "version": "${version}",
+  "name": "InstaFlint",
+  "description": "Мгновенно поджигает TNT-вагонетку огнивом, на которую ты смотришь. Клавиша R включает/выключает.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.instaflint.InstaFlintClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
